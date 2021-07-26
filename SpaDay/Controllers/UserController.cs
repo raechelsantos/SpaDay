@@ -12,5 +12,12 @@ namespace SpaDay.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        [Route("/User/add")]
+        public IActionResult Add()
+        {
+            return View();
+        }
     }
 }
